@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YXHTL · 游戏攻略导航</title>
+<meta name="description" content="独立游戏中文攻略站导航：RimWorld 边缘世界、Len's Island 莱恩岛等热门独立游戏的新手攻略、数据速查和深度解析。">
+<style>
+  :root{--bg:#1a1a1f;--card-bg:#24242b;--border:#333;--text:#c8c8d0;--muted:#888;--accent:#d4956b;--accent2:#14a098;--green:#4a9;--radius:14px}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 20px;line-height:1.7}
+  .header{text-align:center;margin-bottom:48px}
+  .header h1{font-size:clamp(28px,5vw,42px);color:#fff;margin-bottom:6px}
+  .header p{color:var(--muted);font-size:16px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;max-width:800px;width:100%}
+  .card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:32px;transition:.2s;text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:12px}
+  .card:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 12px 32px rgba(0,0,0,.3)}
+  .card .icon{font-size:48px}
+  .card h2{font-size:22px;color:#fff}
+  .card p{color:var(--muted);font-size:14px;flex:1}
+  .card .tag{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;color:var(--accent)}
+  .card .tag::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--green)}
+  .card:nth-child(2) .tag{color:var(--accent2)}
+  .card:nth-child(2) .tag::before{background:var(--accent2)}
+  .footer{margin-top:48px;text-align:center;font-size:13px;color:var(--muted)}
+  .coming{opacity:.4;pointer-events:none}
+  .coming .tag::before{background:var(--muted)}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🎮 游戏攻略导航</h1>
+  <p>独立游戏中文攻略站合集 · 持续新增中</p>
+</div>
+
+<div class="grid">
+  <a href="https://rimworld.yxhtl.com" class="card">
+    <div class="icon">🪐</div>
+    <h2>RimWorld 攻略站</h2>
+    <p>边缘世界新手到精通：开局选人、基地建设、战斗防御、DLC解析、Mod推荐。从活下去到活得好。</p>
+    <span class="tag">29 篇攻略 · 中英双语</span>
+  </a>
+
+  <a href="https://lens.yxhtl.com" class="card">
+    <div class="icon">🏝️</div>
+    <h2>Len's Island 攻略站</h2>
+    <p>莱恩岛生存指南：7天时间线、地牢战斗、农场种植、建造指南、资源速查。从落地第一斧到地牢深处。</p>
+    <span class="tag">8 大专题 · 45+物品图鉴 · 中英双语</span>
+  </a>
+
+  <div class="card coming">
+    <div class="icon">🎲</div>
+    <h2>更多攻略即将上线…</h2>
+    <p>有想看的游戏攻略？欢迎反馈建议。</p>
+    <span class="tag">筹备中</span>
+  </div>
+</div>
+
+<div class="footer">© 2026 YXHTL · 玩家攻略导航 · 非营利性攻略站</div>
+
+</body>
+</html>
