@@ -1,0 +1,113 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/en/about.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/en/about.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/pawns.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/en/pawns.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/getting-started.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/en/getting-started.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/privacy.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/privacy.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/rimworld-guide-biomes.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/rimworld-guide-biomes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/biomes.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/en/biomes.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/rimworld-guide-dlc-biotech.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/rimworld-guide-dlc-biotech.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/rimworld-guide-getting-started.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/rimworld-guide-getting-started.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/rimworld-guide-animals.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/rimworld-guide-animals.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/dlc-biotech.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/en/dlc-biotech.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/about.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/about.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/privacy.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/en/privacy.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/rimworld-guide-research.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/rimworld-guide-research.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/base-building.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/en/base-building.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/rimworld-guide-pawns.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/rimworld-guide-pawns.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/rimworld-guide-mods.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/rimworld-guide-mods.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/rimworld-guide-base-building.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/rimworld-guide-base-building.html",
+      "statusCode": 301
+    },
+    {
+      "source": "/en/research.html",
+      "has": [{ "type": "host", "value": "yxhtl.com" }],
+      "destination": "https://rimworld.yxhtl.com/en/research.html",
+      "statusCode": 301
+    }
+  ]
+}
